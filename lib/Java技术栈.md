@@ -3,6 +3,8 @@
    - **视频资料**
       - [尚硅谷大数据之Zookeeper](https://www.bilibili.com/video/av32093417)
       - [Zookeeper：分布式系统入门到实战](https://www.youtube.com/watch?v=BhosKsE8up8)
+  - 其他资料汇总
+     - [ ZooKeeper集群搭建过程](https://juejin.im/post/5ba879ce6fb9a05d16588802) 
   - 书籍推荐
   
 
