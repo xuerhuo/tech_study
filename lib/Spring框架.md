@@ -36,8 +36,11 @@
 - 其他补充
 
 
-
-
+# Spring、SpringMVC、SpringBoot与SpringCloud关系
+- Spring 是一个“引擎”;
+- SpringMVC 是基于Spring的一个 MVC 框架;
+- SpringBoot 是基于Spring4的条件注册的一套快速开发整合包；
+- SpringCloud 是基于SpringBoot的一套SOA解决方案；
 
 # 书籍推荐
 - 《Spring Cloud微服务实战》 崔永超著
