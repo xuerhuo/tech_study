@@ -4,8 +4,8 @@
 - GitHub源码
    - [https://github.com/apache/zookeeper](https://github.com/apache/zookeeper)
 - **视频讲解资料**
-      - [尚硅谷大数据之Zookeeper](https://www.bilibili.com/video/av32093417)
-      - [Zookeeper：分布式系统入门到实战](https://www.youtube.com/watch?v=BhosKsE8up8)
+   - [尚硅谷大数据之Zookeeper](https://www.bilibili.com/video/av32093417)
+   - [Zookeeper：分布式系统入门到实战](https://www.youtube.com/watch?v=BhosKsE8up8)
 - zk核心算法部分
    - ZAB算法
    - Paxos算法
