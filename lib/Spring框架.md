@@ -29,3 +29,9 @@
 - 官网
    - [https://swagger.io/](https://swagger.io/)
 - 其他补充
+
+
+
+# 书籍推荐
+- 《Spring Cloud微服务实战》 崔永超著
+- 《Java EE开发的颠覆者 SpringBoot实战》 汪云飞著
