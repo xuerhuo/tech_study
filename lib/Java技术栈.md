@@ -14,7 +14,7 @@
    - Znode 
       - [ZooKeeper系列(3)：znode说明和znode状态](https://www.cnblogs.com/f-ck-need-u/p/9233249.html)
       - [ZooKeeper的Znode剖析](https://blog.csdn.net/lihao21/article/details/51810395)
-      - zk监听器原理
+   - zk监听器原理
       - [监听器原理](https://www.bilibili.com/video/av32093417/?p=14)
       - [品味ZooKeeper之Watcher机制
 ](https://www.jianshu.com/p/4c071e963f18)
