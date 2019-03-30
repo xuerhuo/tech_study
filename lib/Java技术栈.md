@@ -20,7 +20,7 @@
 ](https://www.jianshu.com/p/4c071e963f18)
       - [ZooKeeper的监听原理
 ](https://blog.csdn.net/qq_34913075/article/details/79017255)
-  - 书籍推荐
+- 书籍推荐
 
 # JVM知识汇总
 - 视频
