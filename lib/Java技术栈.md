@@ -1,7 +1,12 @@
 # Java基础
 
-***知识细节***</br>
+***知识细节*** 
 
+
+- Java三大特性
+   - 封装
+   - 继承
+   - 多态 
 - 注解
 - 反射
 - 代理
@@ -33,6 +38,10 @@
    	   - LinkedHashMap
    	      -   
 - 锁
+- String StringBuffer StringBuilder比较
+    - String 是final的，线程安全
+    - StringBuffer 线程安全
+    - StringBuilder 线程不安全
 
 
 
@@ -43,15 +52,24 @@
    - ***Session复制:*** 任何一个服务器上的 session 发生改变（增删改），该节点会把这个 session 的所有内容序列化，然后广播给所有其它节点。如果 session 量大的话可能会造成网络堵塞，拖慢服务器性能。
    - ***Session共享:*** 使用分布式缓存方案如 redis 集群。可容错，session 实时响应。 
 
+- RESTFul
+   - 网址参考
+   	   - [阮一峰 RESTful API 最佳实践](http://www.ruanyifeng.com/blog/2018/10/restful-api-best-practices.html)   
+
+
+
 
 
 # 多线程部分
+
 - **视频讲解资料**
    - [马士兵老师java多线程高并发编程
 ](https://www.bilibili.com/video/av33688545) *注意播放顺序*
 
 
-***知识细节***</br>
+***知识细节***
+
+
 
 - 实现多线程方法
    - ***继承Thread类:*** 
@@ -65,7 +83,7 @@
 - 其他补充
   - [JVM知识点总览-高级Java工程师面试必备](http://www.importnew.com/23792.html) 
 
-***知识细节***</br>
+***知识细节***
 
 - JVM内存模型
 
@@ -76,9 +94,13 @@
    - 虚拟机栈:线程私有的，它的生命周期与线程相同。虚拟机栈描述的是Java方法执行的内存模型：每个方法被执行的时候都会同时创建一个栈帧（Stack Frame）用于存储局部变量表、操作栈、动态链接、方法出口等信息。
    - 本地方法栈:为虚拟机使用到的Native方法服务。
    - 程序计算器
+- JDK和JRE
+   - JDK是Java Development Kit	,它是功能齐全的Java SDK。它拥有JRE所拥有的一切，还有编译器（javac）和工具（如javadoc和jdb）。它能够创建和编译程序。
+   - JRE是Java运行时环境。它是运行已编译Java程序所需的所有内容的集合，包括 Java虚拟机（JVM），Java 类库，java命令和其他的一些基础构件。但是，它不能用于创建新程序。
 
 
 # 数据结构部分
+
 - 栈
 - 列表
 - 哈希表
