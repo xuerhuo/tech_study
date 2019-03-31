@@ -42,6 +42,9 @@
 
 ***知识点***</br>
 
+- SpringBoot Starter工作原理
+![avatar](https://github.com/sanwancoder/it_study_lib/blob/master/images/Spring%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86.png?raw=true)
+
 - Spring Boot 解决的问题？
    - 使编码变得简单
 	- 使配置变得简单
