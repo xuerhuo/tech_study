@@ -38,11 +38,37 @@
    	   - LinkedHashMap
    	      -   
 - 锁
+- ==与equals比较
+   - TODO 
+- 
+```java
+public class Test {
+	public static void main(String[] args) {
+		String a = new String("ab"); // a 为一个引用
+		String b = new String("ab"); // b 为另一个引用,对象的内容一样
+		String aa = "ab"; // 放在常量池中
+		String bb = "ab"; // 从常量池中查找
+		if (aa == bb) // true
+			System.out.println("aa==bb");
+		if (a == b) // false，非同一对象
+			System.out.println("a==b");
+		if (a.equals(b)) // true
+			System.out.println("aEQb");
+		if (42 == 42.0) { // true
+			System.out.println("true");
+		}
+	}
+}
+``` 
+
+
 - String StringBuffer StringBuilder比较
     - String 是final的，线程安全
     - StringBuffer 线程安全
     - StringBuilder 线程不安全
 
+- Java 异常
+![avatar](https://github.com/sanwancoder/it_study_lib/blob/master/images/Java%E5%BC%82%E5%B8%B8%E7%B1%BB%E5%B1%82%E6%AC%A1%E5%9B%BE.png?raw=true)
 
 
 
