@@ -25,16 +25,17 @@
          - 底层数据结构是***链表***  
    - Set 
    	   - HashSet
-   	      - 底层数据结构是***哈希表*** 
+   	      - 底层数据结构是 ***哈希表***
    	   - TreeSet
-   	      - 底层数据结构是***红黑树***
+   	      - 底层数据结构是 ***红黑树***
    	   - LinkedHashSet 
-   	      - 底层数据结构是***双向链表*** 
-   - Tree
+   	      - 底层数据结构是 ***双向链表*** 
    - Map
    	   - HashMap
-   	      - 底层数据结构是***数组+链表***
+   	      - 底层数据结构是 ***数组+链表***
    	      - JDK 1.8中对HashMap的实现做了优化,当链表中的节点数据超过八个之后,该链表会转为红黑树来提高查询效率,从原来的 O(n)到 O(logn)
+   	   - HashTable
+   	   - Properties
    	   - LinkedHashMap
    	      -   
 - 锁
@@ -85,6 +86,12 @@ public class Test {
 
 
 
+***Java基础面试***
+
+- 参考网址
+   - [JAVA面试精选【Java基础第一部分】博客园](https://www.cnblogs.com/hnlshzx/p/3491587.html)
+   - [JAVA面试精选【Java基础第二部分】博客园](https://www.cnblogs.com/hnlshzx/p/3492197.html)
+   - [JAVA面试精选【Java基础第三部分】博客园](https://www.cnblogs.com/hnlshzx/p/3493449.html)
 
 
 # 多线程部分
@@ -103,6 +110,10 @@ public class Test {
    - ***实现Runnable接口:*** 重写Run()方法，创建Runnable实例，并以此实例作为Thread类的 target（目标）参数创建Thread对象,调用 Thread 对象的start()启动线程。
    - ***ExecutorService接口:*** 
 
+***多线程面试题***
+- 参考网址
+   - [Java线程面试题 Top 50 - ImportNew](http://www.importnew.com/12773.html)
+   - [多线程面试题 - 掘金](https://juejin.im/post/5b010a016fb9a07a99191ff7)
 
 
 # JVM知识汇总
