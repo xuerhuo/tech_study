@@ -69,7 +69,8 @@ public class Test {
 
 - Java 异常
 ![avatar](https://github.com/sanwancoder/it_study_lib/blob/master/images/Java%E5%BC%82%E5%B8%B8%E7%B1%BB%E5%B1%82%E6%AC%A1%E5%9B%BE.png?raw=true)
-
+- 序列化
+   - 对于不想进行序列化的变量，使用transient关键字修饰 
 
 
 #JavaWeb
