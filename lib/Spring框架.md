@@ -24,6 +24,13 @@
 
 
 
+# SpringMVC
+- 网址
+   -  [SpringMVC官方文档](https://docs.spring.io/spring/docs/4.3.22.RELEASE/spring-framework-reference/htmlsingle/#spring-web)
+- 特点
+   - 单例模式
+   - SpringMVC用***ModelMap对象***对象从后台向前台传递数据的  
+
 
 # SpringBoot
 - 网址
@@ -38,9 +45,7 @@
   - [spring-cloud官方文档](https://cloud.spring.io/spring-cloud-static/Greenwich.RELEASE/multi/multi_spring-cloud.html) 
 - 源码学习
 
-# SpringMVC
-- 网址
-   -  [SpringMVC官方文档](https://docs.spring.io/spring/docs/4.3.22.RELEASE/spring-framework-reference/htmlsingle/#spring-web)
+
 
 
 # Feign
