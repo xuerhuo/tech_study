@@ -1,7 +1,14 @@
 # Java基础
 - 注解
 - 反射
+- 代理
+  - 动态代理
+  - 静态代理
 - 构造器初始化顺序
+- 接口
+- 抽象类
+- 接口与抽象类比较
+	- ![avatar](https://github.com/sanwancoder/it_study_lib/blob/master/images/%E6%8E%A5%E5%8F%A3%E4%B8%8E%E6%8A%BD%E8%B1%A1%E7%B1%BB%E6%AF%94%E8%BE%83.jpg?raw=true)
 
 
 
