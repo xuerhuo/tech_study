@@ -83,6 +83,11 @@ public class Test {
    - ***Session复制:*** 任何一个服务器上的 session 发生改变（增删改），该节点会把这个 session 的所有内容序列化，然后广播给所有其它节点。如果 session 量大的话可能会造成网络堵塞，拖慢服务器性能。
    - ***Session共享:*** 使用分布式缓存方案如 redis 集群。可容错，session 实时响应。 
 
+
+
+- Servlet
+
+
 - RESTFul
    - 网址参考
    	   - [阮一峰 RESTful API 最佳实践](http://www.ruanyifeng.com/blog/2018/10/restful-api-best-practices.html)   
