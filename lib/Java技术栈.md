@@ -33,6 +33,7 @@
    - Map
    	   - HashMap
    	      - 底层数据结构是 ***数组+链表***
+   	      - 不是线程安全的
    	      - JDK 1.8中对HashMap的实现做了优化,当链表中的节点数据超过八个之后,该链表会转为红黑树来提高查询效率,从原来的 O(n)到 O(logn)
    	   - HashTable
    	   - Properties
@@ -62,6 +63,8 @@ public class Test {
 }
 ``` 
 
+
+- 浅拷贝与深拷贝
 
 - String StringBuffer StringBuilder比较
     - String 是final的，线程安全
