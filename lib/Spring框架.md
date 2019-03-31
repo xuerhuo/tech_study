@@ -4,6 +4,27 @@
    - [https://spring.io/](https://spring.io/) 
 
 
+***知识点细节***
+
+- IOC（Inversion of Control）和 DI（Dependecy Injection）
+	- 对象的创建不是再像原来通过new来创建,而是交给Spring配置来创建,因此称为控制反转（IOC）。
+	- 创建对象的工作由Spring来完成,然后注入调用者,因此也称为依赖注入(DI)。
+- AOP
+- 注入方法
+	- Setter注入
+	- Contructor注入
+  
+- 常用注解
+  - @Autowired
+     - 默认 byType 装配
+  - @Resource
+     - 默认 byName 装配
+  - @Service：标注一个业务逻辑组件类
+     - 
+
+
+
+
 # SpringBoot
 - 网址
   - [SpringBoot官方文档](https://docs.spring.io/spring-boot/docs/2.1.3.RELEASE/reference/htmlsingle/)
@@ -29,6 +50,11 @@
 # Ribbon
 
 
+# Eureka
+
+
+- eureka与zk比较
+   - Eureka遵循AP原则,Zookeeper遵循CP原则。
 
 # Swagger文档学习
 - 官网
