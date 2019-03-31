@@ -15,13 +15,15 @@
 	- Contructor注入
   
 - 常用注解
+  - 网址
+     - [https://juejin.im/post/5aed577c6fb9a07aca7a0c4e](https://juejin.im/post/5aed577c6fb9a07aca7a0c4e)
+     - [https://my.oschina.net/Alamien/blog/608663](https://my.oschina.net/Alamien/blog/608663)  
   - @Autowired
      - 默认 byType 装配
   - @Resource
      - 默认 byName 装配
   - @Service：标注一个业务逻辑组件类
      - 
-
 
 
 # SpringMVC
@@ -36,6 +38,15 @@
 - 网址
   - [SpringBoot官方文档](https://docs.spring.io/spring-boot/docs/2.1.3.RELEASE/reference/htmlsingle/)
 - SpringBoot版本介绍
+
+
+***知识点***</br>
+
+- Spring Boot 解决的问题？
+   - 使编码变得简单
+	- 使配置变得简单
+	- 使部署变得简单
+	- 使监控变得简单
 - 源码学习
 
 
