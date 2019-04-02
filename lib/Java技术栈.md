@@ -13,7 +13,19 @@
   - 动态代理
   - 静态代理
 - 构造器初始化顺序
-- abstract
+
+- abstract: abstract（抽象）修饰符，可以修饰类和方法
+   - abstract修饰类，会使这个类成为一个抽象类，这个类将不能生成对象实例
+   - abstract修饰方法，会使这个方法变成抽象方法，也就是只有声明（定义）而没有实现，实现部分以"；"代替。需要子类继承实现（覆盖）
+   - 抽象类可以有构造函数，当被继承的时候，子类会用super()调用父类的构造函数
+   - 继承自抽象类的子类必须覆盖实现父类中的抽象函数 
+   - 类内含有抽象函数的类叫做抽象类，类需要用abstract修饰
+
+
+
+
+
+  
 - 接口
 - 抽象类
 - 接口与抽象类比较
@@ -87,6 +99,11 @@ public class Test {
 
 
 - Servlet
+   - 参考地址
+      - [JavaWeb学习总结(五)——Servlet开发(一)](https://www.cnblogs.com/xdp-gacl/p/3760336.html) 
+      - [Servlet – 基础](http://www.importnew.com/20045.html)
+      - [Java Servlet完全教程](http://www.importnew.com/14621.html)
+
 
 
 - RESTFul
