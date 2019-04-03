@@ -33,6 +33,10 @@
 
   
 - 接口
+   - 接口是可以相互继承的
+   - java.util.concurrent.Executor 是一个接口，java.util.concurrent.ExecutorService 接口继承java.util.concurrent.Executor 接口
+
+   
 - 抽象类
 - 接口与抽象类比较
 ![avatar](https://github.com/sanwancoder/it_study_lib/blob/master/images/%E6%8E%A5%E5%8F%A3%E4%B8%8E%E6%8A%BD%E8%B1%A1%E7%B1%BB%E6%AF%94%E8%BE%83.jpg?raw=true)
@@ -44,7 +48,8 @@
          - 底层数据结构是 ***链表***  
    - Set 
    	   - HashSet
-   	      - 底层数据结构是 ***哈希表***
+   	      - 底层是 HashMap 实现
+   	      - [GitHub HashSet](https://github.com/crossoverJie/JCSprout/blob/master/MD/collection/HashSet.md)
    	   - TreeSet
    	      - 底层数据结构是 ***红黑树***
    	   - LinkedHashSet 
@@ -141,6 +146,8 @@ public class Test {
    - ***继承Thread类:*** 
    - ***实现Runnable接口:*** 重写Run()方法，创建Runnable实例，并以此实例作为Thread类的 target（目标）参数创建Thread对象,调用 Thread 对象的start()启动线程。
    - ***ExecutorService接口:*** 
+      - 首先 ExecutorService 是一个接口， 使用比较多的实现类是 ThreadPoolExecutor
+         - [Java-线程池专题 (美团面试题)](https://www.cnblogs.com/aspirant/p/6920418.html)
 
 ***多线程面试题***
 - 参考网址
