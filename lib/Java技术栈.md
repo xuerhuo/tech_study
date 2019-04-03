@@ -147,12 +147,46 @@ public class Test {
    - ***实现Runnable接口:*** 重写Run()方法，创建Runnable实例，并以此实例作为Thread类的 target（目标）参数创建Thread对象,调用 Thread 对象的start()启动线程。
    - ***ExecutorService接口:*** 
       - 首先 ExecutorService 是一个接口， 使用比较多的实现类是 ThreadPoolExecutor
+         - ThreadPoolExecutor的完整构造方法的签名是：ThreadPoolExecutor(int corePoolSize, int maximumPoolSize, long keepAliveTime, TimeUnit unit, BlockingQueue<Runnable> workQueue, ThreadFactory threadFactory, RejectedExecutionHandler handler) .
+
+              - corePoolSize - 池中所保存的线程数，包括空闲线程。
+
+              - maximumPoolSize - 池中允许的最大线程数。
+
+              - keepAliveTime - 当线程数大于核心时，此为终止前多余的空闲线程等待新任务的最长时间。
+
+              - unit - keepAliveTime 参数的时间单位。
+       
+              - workQueue - 执行前用于保持任务的队列。此队列仅保持由 execute 方法提交的 Runnable任务。
+
+              - threadFactory - 执行程序创建新线程时使用的工厂。
+
+              - handler - 由于超出线程范围和队列容量而使执行被阻塞时所使用的处理程序。
+
+         - ThreadPoolExecutor是Executors类的底层实现。在JDK帮助文档中，有如此一段话：“强烈建议程序员使用较为方便的Executors工厂方法Executors.newCachedThreadPool()（无界线程池，可以进行自动线程回收）、Executors.newFixedThreadPool(int)（固定大小线程池）Executors.newSingleThreadExecutor()（单个后台线程，它们均为大多数使用场景预定义了设置。”
+![avatar](https://github.com/sanwancoder/it_study_lib/blob/master/images/ThreadPoolExecutor%E6%89%A7%E8%A1%8C%E7%9A%84%E7%AD%96%E7%95%A5.png?raw=true)
+
+         - [Java面试经典题：线程池专题](https://juejin.im/post/5b3cf259e51d45194e0b7204). ***核心***
          - [Java-线程池专题 (美团面试题)](https://www.cnblogs.com/aspirant/p/6920418.html)
 
+
 ***多线程面试题***
-- 参考网址
+
+
+CAS(compare and set/swap)与synchronized比较
+
+- 对于资源竞争较少的情况，使用synchronized同步锁进行线程阻塞和唤醒切换以及用户态内核态间的切换操作额外浪费消耗cpu资源；而CAS基于硬件实现，不需要进入内核，不需要切换线程，操作自旋几率较少，因此可以获得更高的性能。
+- 对于资源竞争严重的情况，CAS自旋的概率会比较大，从而浪费更多的CPU资源，效率低于synchronized。
+
+参考地址
+
+- [Java并发编程总结2——慎用CAS](https://www.cnblogs.com/everSeeker/p/5569414.html)
+
+**多线程面试资料网址汇总**
+
    - [Java线程面试题 Top 50 - ImportNew](http://www.importnew.com/12773.html)
    - [多线程面试题 - 掘金](https://juejin.im/post/5b010a016fb9a07a99191ff7)
+   - [java 线程池面试题](https://blog.csdn.net/ht99582/article/details/19567495)
 
 
 # JVM知识汇总
