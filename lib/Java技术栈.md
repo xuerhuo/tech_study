@@ -49,7 +49,7 @@
    - Set 
    	   - HashSet
    	      - 底层是 HashMap 实现
-   	      - [GitHub HashSet](https://github.com/crossoverJie/JCSprout/blob/master/MD/collection/HashSet.md)
+   	          - [GitHub HashSet参考资料](https://github.com/crossoverJie/JCSprout/blob/master/MD/collection/HashSet.md)
    	   - TreeSet
    	      - 底层数据结构是 ***红黑树***
    	   - LinkedHashSet 
