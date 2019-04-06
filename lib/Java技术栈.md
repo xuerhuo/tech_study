@@ -123,10 +123,15 @@ public class Test {
       - [JavaWeb学习总结(五)——Servlet开发(一)](https://www.cnblogs.com/xdp-gacl/p/3760336.html) 
       - [Servlet – 基础](http://www.importnew.com/20045.html)
       - [Java Servlet完全教程](http://www.importnew.com/14621.html)
+      - [web服务器是如何运作的？](https://howtodoinjava.com/tomcat/a-birds-eye-view-on-how-web-servers-work/)
 
 
 
 - RESTFul
+   - 好处
+      - 看Url就知道要什么
+      - 看http method就知道干什么
+      - 看http status  code就知道结果如何 
    - 网址参考
    	   - [阮一峰 RESTful API 最佳实践](http://www.ruanyifeng.com/blog/2018/10/restful-api-best-practices.html)   
 
@@ -175,7 +180,7 @@ public class Test {
          - ThreadPoolExecutor是Executors类的底层实现。在JDK帮助文档中，有如此一段话：“强烈建议程序员使用较为方便的Executors工厂方法Executors.newCachedThreadPool()（无界线程池，可以进行自动线程回收）、Executors.newFixedThreadPool(int)（固定大小线程池）Executors.newSingleThreadExecutor()（单个后台线程，它们均为大多数使用场景预定义了设置。”
 ![avatar](https://github.com/sanwancoder/it_study_lib/blob/master/images/ThreadPoolExecutor%E6%89%A7%E8%A1%8C%E7%9A%84%E7%AD%96%E7%95%A5.png?raw=true)
 
-         - [Java面试经典题：线程池专题](https://juejin.im/post/5b3cf259e51d45194e0b7204). ***核心***
+         - [Java面试经典题：线程池专题](https://juejin.im/post/5b3cf259e51d45194e0b7204). ***核心 反复多看***
          - [Java-线程池专题 (美团面试题)](https://www.cnblogs.com/aspirant/p/6920418.html)
 
 

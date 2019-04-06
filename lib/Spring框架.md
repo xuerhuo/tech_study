@@ -31,7 +31,7 @@
    -  [SpringMVC官方文档](https://docs.spring.io/spring/docs/4.3.22.RELEASE/spring-framework-reference/htmlsingle/#spring-web)
 - 特点
    - 单例模式
-   - SpringMVC用***ModelMap对象***对象从后台向前台传递数据的  
+   - SpringMVC用 ***ModelMap对象*** 对象从后台向前台传递数据的  
 
 
 # SpringBoot
