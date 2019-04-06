@@ -66,8 +66,10 @@
 
    	      
 - 锁
+   - 可重入:若一个程序或子程序可以“在任意时刻被中断然后操作系统调度执行另外一段代码，这段代码又调用了该子程序不会出错”，则称其为可重入（reentrant或re-entrant）的。  
    - 参考资料
        - [ReenTrantLock可重入锁（和synchronized的区别）总结](https://blog.csdn.net/tianyaxingke1605/article/details/79264905) 
+       - [Java多线程：synchronized的可重入性](https://www.cnblogs.com/cielosun/p/6684775.html)
 
 
 - ==与equals比较
