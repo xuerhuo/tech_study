@@ -63,8 +63,13 @@
    	   - HashTable
    	   - Properties
    	   - LinkedHashMap
-   	      -   
+
+   	      
 - 锁
+   - 参考资料
+       - [ReenTrantLock可重入锁（和synchronized的区别）总结](https://blog.csdn.net/tianyaxingke1605/article/details/79264905) 
+
+
 - ==与equals比较
    - TODO 
 - 
