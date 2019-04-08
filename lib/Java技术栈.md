@@ -72,6 +72,11 @@
        - [ReenTrantLock可重入锁（和synchronized的区别）总结](https://blog.csdn.net/tianyaxingke1605/article/details/79264905) 
        - [Java多线程：synchronized的可重入性](https://www.cnblogs.com/cielosun/p/6684775.html)
 
+- ReenTrantLock独有的能力：
+
+1. ReenTrantLock可以指定是公平锁还是非公平锁。而synchronized只能是非公平锁。所谓的公平锁就是先等待的线程先获得锁。
+2. ReenTrantLock提供了一个Condition（条件）类，用来实现分组唤醒需要唤醒的线程们，而不是像synchronized要么随机唤醒一个线程要么唤醒全部线程。
+3. ReenTrantLock提供了一种能够中断等待锁的线程的机制，通过lock.lockInterruptibly()来实现这个机制。
 
 - ==与equals比较
    - TODO 
