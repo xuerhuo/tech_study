@@ -185,7 +185,7 @@ public class Test {
          - ThreadPoolExecutor是Executors类的底层实现。在JDK帮助文档中，有如此一段话：“强烈建议程序员使用较为方便的Executors工厂方法Executors.newCachedThreadPool()（无界线程池，可以进行自动线程回收）、Executors.newFixedThreadPool(int)（固定大小线程池）Executors.newSingleThreadExecutor()（单个后台线程，它们均为大多数使用场景预定义了设置。”
 ![avatar](https://github.com/sanwancoder/it_study_lib/blob/master/images/ThreadPoolExecutor%E6%89%A7%E8%A1%8C%E7%9A%84%E7%AD%96%E7%95%A5.png?raw=true)
 
-         - [Java面试经典题：线程池专题](https://juejin.im/post/5b3cf259e51d45194e0b7204). ***核心 反复多看***
+         - [Java面试经典题：线程池专题](https://juejin.im/post/5b3cf259e51d45194e0b7204) ***核心值得反复多看***
          - [Java-线程池专题 (美团面试题)](https://www.cnblogs.com/aspirant/p/6920418.html)
 
 
