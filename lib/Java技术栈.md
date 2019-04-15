@@ -144,99 +144,6 @@ public class Test {
 
 
 
-***Java基础面试***
-
-- 参考网址
-   - [JAVA面试精选【Java基础第一部分】博客园](https://www.cnblogs.com/hnlshzx/p/3491587.html)
-   - [JAVA面试精选【Java基础第二部分】博客园](https://www.cnblogs.com/hnlshzx/p/3492197.html)
-   - [JAVA面试精选【Java基础第三部分】博客园](https://www.cnblogs.com/hnlshzx/p/3493449.html)
-
-
-# 多线程部分
-
-- **视频讲解资料**
-   - [马士兵老师java多线程高并发编程
-](https://www.bilibili.com/video/av33688545) *注意播放顺序*
-
-
-***知识细节***
-
-
-
-- 实现多线程方法
-   - ***继承Thread类:*** 
-   - ***实现Runnable接口:*** 重写Run()方法，创建Runnable实例，并以此实例作为Thread类的 target（目标）参数创建Thread对象,调用 Thread 对象的start()启动线程。
-   - ***ExecutorService接口:*** 
-      - 首先 ExecutorService 是一个接口， 使用比较多的实现类是 ThreadPoolExecutor
-         - ThreadPoolExecutor的完整构造方法的签名是：ThreadPoolExecutor(int corePoolSize, int maximumPoolSize, long keepAliveTime, TimeUnit unit, BlockingQueue<Runnable> workQueue, ThreadFactory threadFactory, RejectedExecutionHandler handler) .
-
-              - corePoolSize - 池中所保存的线程数，包括空闲线程。
-
-              - maximumPoolSize - 池中允许的最大线程数。
-
-              - keepAliveTime - 当线程数大于核心时，此为终止前多余的空闲线程等待新任务的最长时间。
-
-              - unit - keepAliveTime 参数的时间单位。
-       
-              - workQueue - 执行前用于保持任务的队列。此队列仅保持由 execute 方法提交的 Runnable任务。
-
-              - threadFactory - 执行程序创建新线程时使用的工厂。
-
-              - handler - 由于超出线程范围和队列容量而使执行被阻塞时所使用的处理程序。
-
-         - ThreadPoolExecutor是Executors类的底层实现。在JDK帮助文档中，有如此一段话：“强烈建议程序员使用较为方便的Executors工厂方法Executors.newCachedThreadPool()（无界线程池，可以进行自动线程回收）、Executors.newFixedThreadPool(int)（固定大小线程池）Executors.newSingleThreadExecutor()（单个后台线程，它们均为大多数使用场景预定义了设置。”
-![avatar](https://github.com/sanwancoder/it_study_lib/blob/master/images/ThreadPoolExecutor%E6%89%A7%E8%A1%8C%E7%9A%84%E7%AD%96%E7%95%A5.png?raw=true)
-
-         - [Java面试经典题：线程池专题](https://juejin.im/post/5b3cf259e51d45194e0b7204) ***核心值得反复多看***
-         - [Java-线程池专题 (美团面试题)](https://www.cnblogs.com/aspirant/p/6920418.html)
-
-
-***多线程面试题***
-
-
-CAS(compare and set/swap)与synchronized比较
-
-- 对于资源竞争较少的情况，使用synchronized同步锁进行线程阻塞和唤醒切换以及用户态内核态间的切换操作额外浪费消耗cpu资源；而CAS基于硬件实现，不需要进入内核，不需要切换线程，操作自旋几率较少，因此可以获得更高的性能。
-- 对于资源竞争严重的情况，CAS自旋的概率会比较大，从而浪费更多的CPU资源，效率低于synchronized。
-
-参考地址
-
-- [Java并发编程总结2——慎用CAS](https://www.cnblogs.com/everSeeker/p/5569414.html)
-
-**多线程面试资料网址汇总**
-
-   - [Java线程面试题 Top 50 - ImportNew](http://www.importnew.com/12773.html)
-   - [多线程面试题 - 掘金](https://juejin.im/post/5b010a016fb9a07a99191ff7)
-   - [java 线程池面试题](https://blog.csdn.net/ht99582/article/details/19567495)
-
-
-# JVM知识汇总
-- 视频
-- 其他补充
-  - [JVM知识点总览-高级Java工程师面试必备](http://www.importnew.com/23792.html) 
-
-***知识细节***
-
-- JVM内存模型
-
-![avatar](https://github.com/sanwancoder/it_study_lib/blob/master/images/jvm%E5%86%85%E5%AD%98%E7%BB%93%E6%9E%84.jpg?raw=true)
-
-   - 堆区:Java虚拟机所管理的内存中最大的一块。Java堆是被所有线程共享的一块内存区域，在虚拟机启动时创建。此内存区域的唯一目的就是存放对象实例，几乎所有的对象实例都在这里分配内存。
-   - 方法区:方法区（Method Area）与Java堆一样，是各个线程共享的内存区域，它用于存储已被虚拟机加载的类信息、常量、静态变量、即时编译器编译后的代码等数据。
-   - 虚拟机栈:线程私有的，它的生命周期与线程相同。虚拟机栈描述的是Java方法执行的内存模型：每个方法被执行的时候都会同时创建一个栈帧（Stack Frame）用于存储局部变量表、操作栈、动态链接、方法出口等信息。
-   - 本地方法栈:为虚拟机使用到的Native方法服务。
-   - 程序计算器
-- JDK和JRE
-   - JDK是Java Development Kit	,它是功能齐全的Java SDK。它拥有JRE所拥有的一切，还有编译器（javac）和工具（如javadoc和jdb）。它能够创建和编译程序。
-   - JRE是Java运行时环境。它是运行已编译Java程序所需的所有内容的集合，包括 Java虚拟机（JVM），Java 类库，java命令和其他的一些基础构件。但是，它不能用于创建新程序。
-
-
-# 数据结构部分
-
-- 栈
-- 列表
-- 哈希表
-- 树
 
 
 
@@ -246,10 +153,16 @@ CAS(compare and set/swap)与synchronized比较
 ![avatar](https://github.com/sanwancoder/it_study_lib/blob/master/images/TCP%E4%B8%8EUDP%E6%AF%94%E8%BE%83.png?raw=true)
 
 
+***Java基础面试***
+
+- 参考网址
+   - [JAVA面试精选【Java基础第一部分】博客园](https://www.cnblogs.com/hnlshzx/p/3491587.html)
+   - [JAVA面试精选【Java基础第二部分】博客园](https://www.cnblogs.com/hnlshzx/p/3492197.html)
+   - [JAVA面试精选【Java基础第三部分】博客园](https://www.cnblogs.com/hnlshzx/p/3493449.html)
+
+
 # 书籍推荐
-  - 《Java多线程编程核心技术》
-  - 《Java并发编程实践》
-  - 《深入理解Java虚拟机  JVM高级特性与最佳实践》 周志明 著
+
 
 
       
