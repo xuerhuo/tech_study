@@ -1,17 +1,24 @@
 # Docker
-- 介绍:
-- 官网
+
+介绍
+
+官网
    - [https://www.docker.com/](https://www.docker.com/) 
-- docker社区
+
+docker社区
    - [https://www.docker-cn.com/community-edition](https://www.docker-cn.com/community-edition) 
    - [http://www.docker.org.cn/](http://www.docker.org.cn/)
-- 安装
-    - [kitematic安装地址](https://github.com/docker/kitematic)
-- 使用方法
-- 疑难解决
 
-   - 学习地址
-     - [Runoob docke学习](<http://www.runoob.com/docker/docker-tutorial.html> ) **入门资料**
+安装
+    - [kitematic安装地址](https://github.com/docker/kitematic)
+
+使用方法
+
+
+疑难解决
+
+学习地址
+   - [Runoob docke学习](<http://www.runoob.com/docker/docker-tutorial.html> ) **入门资料**
 
 
 
@@ -26,6 +33,34 @@
 问题解决
 
 - [windows下无法在powershell中运行docker ](<https://zhidao.baidu.com/question/2120616223445311987.html>)
+
+
+
+
+
+
+
+资源
+
+- Docker中文资源
+
+- Docker中文网站：https://www.docker-cn.com/
+
+- Docker安装手册：https://docs.docker-cn.com/engine/installation/
+
+
+Docker 国内镜像
+
+- 网易加速器：http://hub-mirror.c.163.com
+
+- 官方中国加速器：https://registry.docker-cn.com
+
+- ustc的镜像：https://docker.mirrors.ustc.edu.cn
+
+- daocloud：https://www.daocloud.io/mirror#accelerator-doc（注册后使用）
+
+
+
 
 
 
