@@ -8,6 +8,7 @@
 docker社区
    - [https://www.docker-cn.com/community-edition](https://www.docker-cn.com/community-edition) 
    - [http://www.docker.org.cn/](http://www.docker.org.cn/)
+   - [docker 文档](https://docs.docker.com/)
 
 安装
     - [kitematic安装地址](https://github.com/docker/kitematic)
