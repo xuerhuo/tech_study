@@ -22,5 +22,5 @@
 客户端推荐
 
 - [Redis Desktop Manager](https://redisdesktop.com/) ***收费***
-- [Redis Client]( https://github.com/cinience/RedisStudio)  **免费**
+- [Redis Client]( https://github.com/caoxinyu/RedisClient)  **免费**
 - [RedisStudio](https://github.com/cinience/RedisStudio) **免费**
