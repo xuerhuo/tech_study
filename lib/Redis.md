@@ -1,8 +1,10 @@
 # Redis部分
 - 介绍:Redis 是一款开源的,基于BSD许可的,单线程模式,高级键值(key-value)缓存(cache)和存储(store)系统
 - 官网
+
   - [https://redis.io/](https://redis.io/)
 - GitHub源码
+
    - [https://github.com/antirez/redis](https://github.com/antirez/redis)
 - 视频讲解资料
 - 学习
@@ -24,3 +26,4 @@
 - [Redis Desktop Manager](https://redisdesktop.com/) ***收费***
 - [Redis Client]( https://github.com/caoxinyu/RedisClient)  **免费**
 - [RedisStudio](https://github.com/cinience/RedisStudio) **免费**
+- [FastoRedis ](<https://fastoredis.com/>)  ***分收费与付费两种***
