@@ -5,7 +5,8 @@
 - docker社区
    - [https://www.docker-cn.com/community-edition](https://www.docker-cn.com/community-edition) 
    - [http://www.docker.org.cn/](http://www.docker.org.cn/)
-   - 
+- 安装
+    - [kitematic安装地址](https://github.com/docker/kitematic)
 - 使用方法
 - 疑难解决
 
@@ -19,6 +20,12 @@
 
 
 
+
+
+
+问题解决
+
+- [windows下无法在powershell中运行docker ](<https://zhidao.baidu.com/question/2120616223445311987.html>)
 
 
 
