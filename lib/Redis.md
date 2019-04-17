@@ -27,3 +27,12 @@
 - [Redis Client]( https://github.com/caoxinyu/RedisClient)  **免费**
 - [RedisStudio](https://github.com/cinience/RedisStudio) **免费**
 - [FastoRedis ](<https://fastoredis.com/>)  ***分收费与付费两种***
+
+
+
+
+
+问题解决
+
+- [redis启动出错Creating Server TCP listening socket 127.0.0.1:6379: bind: No error](<https://www.cnblogs.com/shaosks/p/7089786.html>)
+
