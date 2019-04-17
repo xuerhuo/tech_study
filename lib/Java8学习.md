@@ -1,6 +1,12 @@
 # Java8学习
 
 
+
+jdk8文档
+
+- [javase8 doc](<https://docs.oracle.com/javase/8/docs/>)
+
+
 网站
 
 - [Java 8新特性](http://www.runoob.com/java/java8-new-features.html)
@@ -11,7 +17,6 @@
 
 
 ***Stream流***
-
 
 
 
