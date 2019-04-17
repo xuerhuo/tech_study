@@ -32,12 +32,11 @@
      3）被transient关键字修饰的变量不再能被序列化，一个静态变量不管是否被transient修饰，均不能被序列化。
 
 
-  
+
 - 接口
    - 接口是可以相互继承的
    - java.util.concurrent.Executor 是一个接口，java.util.concurrent.ExecutorService 接口继承java.util.concurrent.Executor 接口
 
-   
 - 抽象类
 - 接口与抽象类比较
 ![avatar](https://github.com/sanwancoder/it_study_lib/blob/master/images/%E6%8E%A5%E5%8F%A3%E4%B8%8E%E6%8A%BD%E8%B1%A1%E7%B1%BB%E6%AF%94%E8%BE%83.jpg?raw=true)
@@ -65,7 +64,6 @@
    	   - Properties
    	   - LinkedHashMap
 
-   	      
 - 锁
    - 可重入:若一个程序或子程序可以“在任意时刻被中断然后操作系统调度执行另外一段代码，这段代码又调用了该子程序不会出错”，则称其为可重入（reentrant或re-entrant）的。  
        - ReenTrantLock独有的能力：
@@ -101,7 +99,7 @@ public class Test {
 		}
 	}
 }
-``` 
+```
 
 
 - 浅拷贝与深拷贝
@@ -165,5 +163,59 @@ public class Test {
 
 
 
-      
+​      
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 测试
+
+- [HelloWorld.java](<https://introcs.cs.princeton.edu/java/11hello/HelloWorld.java.html>)
+
+```java
+
+
+- 
+
+​```java
+
+/******************************************************************************
+ *  Compilation:  javac HelloWorld.java
+ *  Execution:    java HelloWorld
+ *
+ *  Prints "Hello, World". By tradition, this is everyone's first program.
+ *
+ *  % java HelloWorld
+ *  Hello, World
+ *
+ *  These 17 lines of text are comments. They are not part of the program;
+ *  they serve to remind us about its properties. The first two lines tell
+ *  us what to type to compile and test the program. The next line describes
+ *  the purpose of the program. The next few lines give a sample execution
+ *  of the program and the resulting output. We will always include such 
+ *  lines in our programs and encourage you to do the same.
+ *
+ ******************************************************************************/
+
+
+
+public class HelloWorld {
+
+    public static void main(String[] args) {
+        // Prints "Hello, World" to the terminal window.
+        System.out.println("Hello, World");
+    }
+
+}
+​```
+```
 
