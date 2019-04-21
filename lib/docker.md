@@ -11,7 +11,7 @@ docker社区
    - [docker 文档](https://docs.docker.com/)
 
 安装
-    - [kitematic安装地址](https://github.com/docker/kitematic)
+    - [kitematic安装地址](https://github.com/docker/kitematic) ***DOcker Gui客户端***
 
 使用方法
 
