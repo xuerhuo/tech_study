@@ -73,6 +73,7 @@ Docker 国内镜像
 
 # K8s与Docker
 
+- [10分钟看懂Docker和K8S](https://zhuanlan.zhihu.com/p/53260098) **好文必读**
 
 
 
