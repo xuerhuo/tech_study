@@ -28,6 +28,9 @@
 - SpringCloud 是基于SpringBoot的一套SOA解决方案；
 
 
+# 其他补充
+
+- [SpringBoot非官方教程 | 终章：文章汇总](https://blog.csdn.net/forezp/article/details/70341818)
 
 
 # 书籍推荐
