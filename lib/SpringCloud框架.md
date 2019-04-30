@@ -53,8 +53,8 @@
 - 官网
    - [https://swagger.io/](https://swagger.io/)
    
-- 其他补充
-   -[史上最简单的 SpringCloud 教程 | 终章](https://blog.csdn.net/forezp/article/details/70148833)
+# 其他补充
+   - [史上最简单的 SpringCloud 教程 | 终章](https://blog.csdn.net/forezp/article/details/70148833)
 
 
 
