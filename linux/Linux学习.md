@@ -13,8 +13,11 @@
 
 
 - xsync
-- ps
+- ps(process status)
 - tar
+
+
+- sz rz [Linux tz --下载文件，无需ftp/sftp](https://blog.csdn.net/mosesmo1989/article/details/51094778)
 
 
 
