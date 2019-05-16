@@ -33,4 +33,14 @@
 |MyBatisCodeHelperPro|[https://plugins.jetbrains.com/plugin/9837-mybatiscodehelperpro](https://plugins.jetbrains.com/plugin/9837-mybatiscodehelperpro)|
 |Markdown support|[https://plugins.jetbrains.com/](https://plugins.jetbrains.com/)|
 |FindBugs-IDEA|[https://plugins.jetbrains.com/](https://plugins.jetbrains.com/)|
-
+|Stack Overflow|直接到Stack Overflow搜索|
+|CamelCase|驼峰命名|
+|CodeGlance|在编辑区的右侧显示的代码地图|
+|Rainbow Brackets|彩虹颜色的括号  看着很舒服 敲代码效率变高 **括号多时有作用**|
+|Codota|https://www.codota.com/ 使用快捷键可以搜索知名开源项目中该类或者方法的使用案例|
+|Kotlin Sequence Debugger|A Kotlin extension for Java Stream Debugger plugin.|
+|Java Stream Debugger|https://plugins.jetbrains.com/plugin/9696-java-stream-debugger **可以查看stream中间操作的数据状态**|
+|VisualVM Launcher|内存查看工具，GC、线程、bean等。内存溢出什么的，都有迹可循|
+|RestfulToolkit|一套 RESTful 服务开发辅助工具集，方便的进行全局接口查找。|
+|Grep Console|Grep, tail, filter, highlight... everything you need for a console. Also can highlight the editor - nice for analyzing logs... |
+|Translation|翻译|
