@@ -1,4 +1,4 @@
-# 及早抛弃STS、eclipse;尽快拥抱idea 
+# Advice: 马上抛弃STS、eclipse;立即拥抱idea 
 
 ----
 
