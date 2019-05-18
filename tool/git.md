@@ -4,9 +4,6 @@
 ## Git客户端
 - PC端
   - [SmartGit](https://www.syntevo.com/smartgit/) 
-     - 具体用法 
-         - commit
-         - merge  
   - [Sourcetree](https://cn.atlassian.com/software/sourcetree)   ***推荐免费***
   - 手机端 Grape For GitHub
 
@@ -22,7 +19,7 @@
 ![avatar](https://github.com/sanwancoder/it_study_lib/blob/master/images/git-flow-nvie.png?raw=true)
 
 
-## Git-flow项目
+### Git-flow项目
 
 - [https://github.com/nvie/gitflow](https://github.com/nvie/gitflow) ***SourceTree已经集成git-flow***
 
