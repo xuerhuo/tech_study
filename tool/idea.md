@@ -10,7 +10,9 @@
 |--------| ------ |
 |Ctrl+D|复制|
 |Ctrl+X|删除行|
-
+|Debug快捷键|Debug快捷键作用|
+|F8|调试单步|
+|Shift+F8|跳到下一个端点|
 
 
 - [IntelliJ IDEA 快捷键说明大全（中英对照、带图示详解）](https://juejin.im/post/5a90810b6fb9a063606eefe0)
