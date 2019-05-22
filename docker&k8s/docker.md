@@ -35,7 +35,10 @@ docker社区
 
 
 
-
+|docker 命令|作用|连接|
+|------|-------|-------|
+|docker rm|删除容器|https://docs.docker.com/engine/reference/commandline/rm/|
+|docker rmi|删除镜像|https://docs.docker.com/engine/reference/commandline/rmi/|
 
 
 
