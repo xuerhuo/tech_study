@@ -39,6 +39,7 @@ docker社区
 |------|-------|-------|
 |docker rm|删除容器|[https://docs.docker.com/engine/reference/commandline/rm/](https://docs.docker.com/engine/reference/commandline/rm/)|
 |docker rmi|删除镜像|[https://docs.docker.com/engine/reference/commandline/rmi/](https://docs.docker.com/engine/reference/commandline/rmi/)|
+|docker run|= dockerer create, docker start|[https://docs.docker.com/engine/reference/commandline/run/](https://docs.docker.com/engine/reference/commandline/run/)|
 
 
 
