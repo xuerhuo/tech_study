@@ -12,6 +12,7 @@
 |Ctrl+X|删除行|
 |ctrl+alt+o|自动优化包|
 |ctrl+alt+L|自动格式化代码|
+|Alt+Insert|自动生成getter setter constructor等|
 
 
 
