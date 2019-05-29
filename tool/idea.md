@@ -15,6 +15,8 @@
 |Alt+Insert|自动生成getter setter constructor等|
 |Ctrl+F11|增加书签|
 |Shift+F11|删除书签|
+|ctrl+shift+F|全局搜索(注意按键冲突)|
+|ctrl+F|当前页面搜索|
 
 
 
@@ -27,6 +29,7 @@
 
 - [IntelliJ IDEA 快捷键说明大全（中英对照、带图示详解）](https://juejin.im/post/5a90810b6fb9a063606eefe0)
 - [IntelliJ Idea 常用快捷键列表](https://blog.csdn.net/childhooders/article/details/4319679)
+- [idea 快捷键 from 极客学院](https://wiki.jikexueyuan.com/project/intellij-idea-tutorial/keymap-introduce.html)
 
 ## macOS环境下
 | 快捷键 | 快捷键作用|
