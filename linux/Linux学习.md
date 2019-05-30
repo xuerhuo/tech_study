@@ -23,7 +23,8 @@
 - sz rz [Linux tz --下载文件，无需ftp/sftp](https://blog.csdn.net/mosesmo1989/article/details/51094778)
 
 
-
+- find [linux查找文件命令find](https://blog.csdn.net/ydfok/article/details/1486451)
+  - 　find / -name httpd.conf 
 
 ***Linux目录结构***
 
