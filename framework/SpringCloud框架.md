@@ -57,7 +57,9 @@
    - [史上最简单的 SpringCloud 教程 | 终章](https://blog.csdn.net/forezp/article/details/70148833)
 
 
+# SpringCloud dependencyManagement
 
+- [https://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-dependencies/](https://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-dependencies/)
 
 
 # 书籍推荐
