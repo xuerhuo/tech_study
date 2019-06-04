@@ -54,11 +54,6 @@ LOOKING。
      <artifactId>zkclient</artifactId>
      <version>${zkclient.version}</version>
  </dependency>
---------------------- 
-作者：二师兄-公众号-程序新视界 
-来源：CSDN 
-原文：https://blog.csdn.net/wo541075754/article/details/68929512 
-版权声明：本文为博主原创文章，转载请附上博文链接！
 ```
 
 - [Curator](https://curator.apache.org/)
