@@ -35,6 +35,43 @@ LOOKING。
           - 服务器 4 启动，给自己投票，同时与之前启动的服务器 1,2,3 交换信息，尽管服务器 4
 的编号大，但之前服务器 3 已经胜出，所以服务器 4 只能成为小弟。
          - 服务器 5 启动，后面的逻辑同服务器 4 成为小弟。
+         
+# zk客户端工具
+- ##ZooInspector##
+
+
+# zk开源客户端
+- **zkclient** ZkClient是由Datameer的工程师开发的开源客户端，对Zookeeper的原生API进行了包装，实现了超时重连、Watcher反复注册等功能。
+
+```
+<dependency>
+     <groupId>org.apache.zookeeper</groupId>
+     <artifactId>zookeeper</artifactId>
+     <version>${zookeeper.version}</version>
+ </dependency>
+ <dependency>
+     <groupId>com.github.sgroschupf</groupId>
+     <artifactId>zkclient</artifactId>
+     <version>${zkclient.version}</version>
+ </dependency>
+--------------------- 
+作者：二师兄-公众号-程序新视界 
+来源：CSDN 
+原文：https://blog.csdn.net/wo541075754/article/details/68929512 
+版权声明：本文为博主原创文章，转载请附上博文链接！
+```
+
+- [Curator](https://curator.apache.org/)
+
+```
+<!-- https://mvnrepository.com/artifact/org.apache.curator/curator-framework -->
+<dependency>
+    <groupId>org.apache.curator</groupId>
+    <artifactId>curator-framework</artifactId>
+    <version>4.0.1</version>
+</dependency>
+
+```
 
 - zookeeper与Eureka比较
 
