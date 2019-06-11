@@ -23,7 +23,9 @@
 
 客户端推荐
 
-- [FastoRedis ](<https://fastoredis.com/>)  ***分收费与付费两种  强烈推荐***
+- [Redis Desktop Manager](https://redisdesktop.com/) ***强烈推荐***
+- [FastoRedis ](<https://fastoredis.com/>)  ***分收费与付费两种***
+
 
 
 
