@@ -18,13 +18,14 @@ docker社区
 
 疑难解决
 
+
 学习地址
    - [Runoob docke学习](<http://www.runoob.com/docker/docker-tutorial.html> ) **入门资料**
 
 
 
 
-***docker 命令***
+## docker 命令
 
 - [https://docs.docker.com/engine/reference/commandline/docker/](https://docs.docker.com/engine/reference/commandline/docker/)
 
@@ -36,18 +37,13 @@ docker社区
 ![avatar](https://github.com/sanwancoder/it_study_lib/blob/master/images/dockerrun.png?raw=true)
 
 
+### 常用命令简介
 
 |docker 命令|作用|连接|
 |------|-------|-------|
 |docker rm|删除容器|[https://docs.docker.com/engine/reference/commandline/rm/](https://docs.docker.com/engine/reference/commandline/rm/)|
 |docker rmi|删除镜像|[https://docs.docker.com/engine/reference/commandline/rmi/](https://docs.docker.com/engine/reference/commandline/rmi/)|
 |docker run|= dockerer create, docker start|[https://docs.docker.com/engine/reference/commandline/run/](https://docs.docker.com/engine/reference/commandline/run/)|
-
-
-
-问题解决
-
-- [windows下无法在powershell中运行docker ](<https://zhidao.baidu.com/question/2120616223445311987.html>)
 
 
 
@@ -59,8 +55,6 @@ docker社区
 
 
 资源
-
-- Docker中文资源
 
 - Docker中文网站：https://www.docker-cn.com/
 
@@ -87,4 +81,8 @@ Docker 国内镜像
 - [10分钟看懂Docker和K8S](https://zhuanlan.zhihu.com/p/53260098) **好文必读**
 
 
+
+问题解决
+
+- [windows下无法在powershell中运行docker ](<https://zhidao.baidu.com/question/2120616223445311987.html>)
 
