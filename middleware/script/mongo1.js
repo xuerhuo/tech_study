@@ -1,0 +1,1 @@
+//group matchdb.getCollection('photo_bfa419a6-5ae7-4f03-9f66-3f6a19ed4a3d').aggregate([  {    "$group": {_id: "$url", count: {"$sum": 1}}  },{"$match": {"_id" :{ "$ne" : null } , "count" : {"$gt": 1} } }], { allowDiskUse: true } )
