@@ -16,4 +16,4 @@
 |rz|上传文件|||
 |md5sum|查看文件md5值||windows下方法: certutil -hashfile **文件** MD5|
 |find|查找文件|[linux查找文件命令find](https://blog.csdn.net/ydfok/article/details/1486451)||
-|ls -al --block-size=M|以MB显示文件大小 linux|||
+|ls -al --block-size=M|以MB显示文件大小 linux||--block-size=M|
