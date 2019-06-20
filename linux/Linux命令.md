@@ -8,7 +8,6 @@
 
 |linux命令|作用|参考文档|备注|
 |------------|-----------|-----------------|---------------|
-|jps|可以列出本机所有java进程的pid |[jps命令详解](https://blog.csdn.net/gtuu0123/article/details/6025520)||
 |xsync||||
 |ps|process status|||
 |tar||||
