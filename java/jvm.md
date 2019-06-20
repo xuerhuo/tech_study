@@ -22,7 +22,7 @@
 # jdk命令行工具
 |命令|作用|参考文档|常用选项|备注|
 |------------|-----------|-----------------|---------------|--------------|
-|jps|可以列出本机所有java进程的pid |-l -v -q -m|[jps命令详解](https://blog.csdn.net/gtuu0123/article/details/6025520)||
+|jps|可以列出本机所有java进程的pid |[jps命令详解](https://blog.csdn.net/gtuu0123/article/details/6025520)|-l -v -q -m||
    
 
 # 书籍推荐
