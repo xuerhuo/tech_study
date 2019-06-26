@@ -62,4 +62,3 @@
 |VisualVM Launcher|内存查看工具，GC、线程、bean等。内存溢出什么的，都有迹可循|
 |RestfulToolkit|一套 RESTful 服务开发辅助工具集，方便的进行全局接口查找。|
 |Grep Console|Grep, tail, filter, highlight... everything you need for a console. Also can highlight the editor - nice for analyzing logs... |
-|Translation|翻译|
