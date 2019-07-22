@@ -24,5 +24,17 @@ log.dirs=/tmp/kafka-logs
 ![avatar](https://github.com/sanwancoder/tech_study/blob/master/images/windows%E4%B8%8Bkafka%E6%B6%88%E6%81%AF.jpg?raw=true)
 
 
-## Kafka Web Console
+## 4.1Kafka三款监控工具之Kafka Web Console
 //TODO 
+
+## 4.2Kafka三款监控工具之Kafka Manager
+- [https://github.com/yahoo/kafka-manager](https://github.com/yahoo/kafka-manager)
+
+## 4.3Kafka三款监控工具之KafkaOffsetMonitor
+- [https://github.com/quantifind/KafkaOffsetMonitor](https://github.com/quantifind/KafkaOffsetMonitor)
+
+4.3.1修改配置 \kafka-manager-1.3.3.17\conf\application.conf 
+```
+修改配置(这里主要是连接你的zookeeper服务的端口)
+kafka-manager.zkhosts="localhost:2181/kafka"
+```
