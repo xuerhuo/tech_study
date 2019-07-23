@@ -1,8 +1,9 @@
 # Quick Start
+## 简介
 - [https://github.com/ctripcorp/apollo/wiki/Quick-Start](https://github.com/ctripcorp/apollo/wiki/Quick-Start)
 - 依赖: Mysql、注册中心、jdk1.8+
 
-### demo.sh代码修改如下
+## demo.sh代码修改如下
 ```
 # apollo config db info
 apollo_config_db_url=jdbc:mysql://localhost:3306/ApolloConfigDB?characterEncoding=utf8
@@ -21,3 +22,10 @@ portal_url=http://localhost:8070
 ```
 
 在Git bash下执行 **./demo.sh start**
+
+## 效果图
+![avatar](https://github.com/sanwancoder/tech_study/blob/master/images/apollo_demo_sh.png?raw=true)
+
+# 原理学习
+
+# 源码学习
