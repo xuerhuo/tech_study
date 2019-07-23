@@ -8,22 +8,46 @@
 
 
 # 学习资料
-
+## 学习教程
 - [MongoDB 教程](http://www.runoob.com/mongodb/mongodb-tutorial.html)
 
 
-客户端推荐
-
+## 客户端推荐
 - [Robo 3T 免费](https://robomongo.org/)    **良心推荐**
 - [MongoDB上有哪些比较好的GUI工具？ - 何健的回答 - 知乎](https://www.zhihu.com/question/31903748/answer/54321387)
 
 
+# 基础理论知识
+1. MongoDB允许ad hoc查询,但是不支持join连接查询
+2. 在MongoDB里，数据的基本单位是BSON文件。
+3. MongoDB不支持事务
+
+## 参考文章
+
+# MongoDB高级聚合查询
+
+| SQL 操作/函数 | mongodb聚合操作 |
+| --------- | --------- |
+|where	|$match |
+|group by	|$group |
+|having|	$match |
+|select|	$project |
+|order by	|$sort |
+|limit　	|$limit |
+|sum()|	$sum |
+|count()|	$sum |
+|join|$lookup(v3.2 新增) |
 
 
+## 参考文章
+- [mongodb高级聚合查询](https://www.cnblogs.com/zhoujie/p/mongo1.html)
+- [https://docs.mongodb.com/manual/](https://docs.mongodb.com/manual/)
+
+# 部署
+## Docker环境下MongoDB部署
 
 
-
-# 其他必读
+# 其他好文必读
 
 - [BSON的介绍及BSON与JSON的区别](<https://blog.csdn.net/m0_38110132/article/details/77716792>)
 - [What does being schema-less mean for a NoSQL Database?](<https://stackoverflow.com/questions/15589184/what-does-being-schema-less-mean-for-a-nosql-database>)
