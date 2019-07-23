@@ -21,6 +21,7 @@
 1. MongoDB允许ad hoc查询,但是不支持join连接查询
 2. 在MongoDB里，数据的基本单位是BSON文件。
 3. MongoDB不支持事务
+4. MongoDB集合有**盖子集合**、**TTL(time-to-live)集合**;还有两个特殊的集合system.namespace和system.indexes
 
 ## 参考文章
 
