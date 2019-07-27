@@ -33,6 +33,9 @@ log.dirs=/tmp/kafka-logs
 ## 4.3Kafka三款监控工具之KafkaOffsetMonitor
 - [https://github.com/quantifind/KafkaOffsetMonitor](https://github.com/quantifind/KafkaOffsetMonitor)
 
+## 4.4 Kafka Tool
+- [http://www.kafkatool.com/](http://www.kafkatool.com/)
+
 4.3.1修改配置 \kafka-manager-1.3.3.17\conf\application.conf 
 ```
 修改配置(这里主要是连接你的zookeeper服务的端口)
