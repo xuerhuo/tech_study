@@ -4,21 +4,26 @@
 - SpringBoot版本介绍
 
 
-***知识点***</br>
+## 知识点
 
-- SpringBoot Starter工作原理
+1. SpringBoot Starter工作原理
 ![avatar](https://github.com/sanwancoder/it_study_lib/blob/master/images/Spring%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86.png?raw=true)
 
-- Spring Boot 解决的问题？
+2. Spring Boot 解决的问题？
    - 使编码变得简单
 	- 使配置变得简单
 	- 使部署变得简单
 	- 使监控变得简单
-- 源码学习
+3. 源码学习
 
+- @SpringBootApplication --->>> @EnableAutoConfiguration -->>>
+  - 1 @AutoConfigurationPackage
+  - 2 @Import(EnableAutoConfigurationImportSelector.class)  --->>> AutoConfigurationImportSelector --->>> org.springframework.boot.autoconfigure.AutoConfigurationImportSelector#selectImports --->>> org.springframework.boot.autoconfigure.AutoConfigurationImportSelector#getCandidateConfigurations
 
-
-
+springboot加载配置
+[https://blog.csdn.net/puhaiyang/article/details/78335703](https://blog.csdn.net/puhaiyang/article/details/78335703)
+[SpringBoot SpringApplication底层源码分析与自动装配](https://www.cnblogs.com/jimisun/p/10077033.html)
+[SpringBoot2 | @SpringBootApplication注解 自动化配置流程源码分析（三）](https://juejin.im/post/5ce3c173f265da1b8a4ef1ee)
 
 
 # Spring、SpringMVC、SpringBoot与SpringCloud关系
