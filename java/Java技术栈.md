@@ -1,5 +1,17 @@
 # Java基础
 
+## 1. 基础知识
+### 1.1 BigDecimal
+#### 1.1.1 BigDecimal 的使用注意事项
+注意：我们在使用BigDecimal时，为了防止精度丢失，推荐使用它的 **BigDecimal(String)** 构造方法来创建对象。《阿里巴巴Java开发手册》对这部分内容也有提到如下图所示。
+
+### 1.2 基本数据类型与包装数据类型的使用标准
+Reference:《阿里巴巴Java开发手册》
+
+- 【强制】所有的 POJO 类属性必须使用包装数据类型。
+- 【强制】RPC 方法的返回值和参数必须使用包装数据类型。
+- 【推荐】所有的局部变量使用基本数据类型。
+
 ***知识细节*** 
 
 
@@ -40,29 +52,34 @@
 - 抽象类
 - 接口与抽象类比较
 ![avatar](https://github.com/sanwancoder/it_study_lib/blob/master/images/%E6%8E%A5%E5%8F%A3%E4%B8%8E%E6%8A%BD%E8%B1%A1%E7%B1%BB%E6%AF%94%E8%BE%83.jpg?raw=true)
-- 集合
-   - List
-      - ArrayList
-         - 底层数据结构是 ***数组***
-      - LinkedList
-         - 底层数据结构是 ***链表***  
-   - Set 
-   	   - HashSet
-   	      - 底层是 HashMap 实现
-   	          - [GitHub HashSet参考资料](https://github.com/crossoverJie/JCSprout/blob/master/MD/collection/HashSet.md)
-   	   - TreeSet
+
+## 2. 集合
+### 2.1. List
+#### 2.1.1 ArrayList
+底层数据结构是 ***数组***
+#### 2.1.2 LinkedList
+底层数据结构是 ***链表*** 
+
+### 2.2. Set 
+#### 2.2.1 HashSet
+底层实现: HashMap
+   	- [GitHub HashSet参考资料](https://github.com/crossoverJie/JCSprout/blob/master/MD/collection/HashSet.md)
+#### 2.2.2 TreeSet
    	      - 底层数据结构是 ***红黑树***
-   	   - LinkedHashSet 
+#### 2.2.3 LinkedHashSet 
    	      - [搞懂 HashSet & LinkedHashSet 源码以及集合常见面试题目](https://juejin.im/post/5ad6313df265da2386706662) 
    	      - 底层数据结构是 ***双向链表*** 
-   - Map
-   	   - HashMap
+
+### 2.3 Map
+#### 2.3.1 HashMap
    	      - 底层数据结构是 ***数组+链表***
    	      - 不是线程安全的
    	      - JDK 1.8中对HashMap的实现做了优化,当链表中的节点数据超过八个之后,该链表会转为红黑树来提高查询效率,从原来的 O(n)到 O(logn)
-   	   - HashTable
-   	   - Properties
-   	   - LinkedHashMap
+#### 2.3.2 HashTable
+
+#### 2.3.3 Properties
+
+#### 2.3.4  LinkedHashMap
 
 - 锁
    - 可重入:若一个程序或子程序可以“在任意时刻被中断然后操作系统调度执行另外一段代码，这段代码又调用了该子程序不会出错”，则称其为可重入（reentrant或re-entrant）的。  
@@ -76,6 +93,10 @@
    - 参考资料
        - [ReenTrantLock可重入锁（和synchronized的区别）总结](https://blog.csdn.net/tianyaxingke1605/article/details/79264905) 
        - [Java多线程：synchronized的可重入性](https://www.cnblogs.com/cielosun/p/6684775.html)
+
+
+
+
 
 
 - ==与equals比较
@@ -115,7 +136,7 @@ public class Test {
    - 对于不想进行序列化的变量，使用transient关键字修饰 
 
 
-#JavaWeb
+# JavaWeb
 - 集群环境下如何实现Session共享
    - ***粘性Session:*** 是指将用户锁定到某一个服务器上；缺乏容错性，如果当前访问的服务器发生故障，用户被转移到第二个服务器上时，他的 session 信息都将失效。
    - ***Session复制:*** 任何一个服务器上的 session 发生改变（增删改），该节点会把这个 session 的所有内容序列化，然后广播给所有其它节点。如果 session 量大的话可能会造成网络堵塞，拖慢服务器性能。
