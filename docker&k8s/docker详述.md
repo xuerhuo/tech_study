@@ -9,11 +9,11 @@
 
 # Docker三剑客
 
-## Docker Machine
+## Docker Machine （docker环境）
 
-## Docker Compose
+## Docker Compose （服务编排）
 
-## Docker Swarm
+## Docker Swarm （容器集群管理,可以学习k8s）
 
 
 ### 常用命令简介
