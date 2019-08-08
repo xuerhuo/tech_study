@@ -5,10 +5,11 @@
 - PC端
   - [SmartGit](https://www.syntevo.com/smartgit/) 
   - [Sourcetree](https://cn.atlassian.com/software/sourcetree)   ***推荐免费***
-  - 手机端 Grape For GitHub
+- 手机端 
+  - Grape For GitHub
+
 
 ![avatar](https://github.com/sanwancoder/it_study_lib/blob/master/images/GrapeForGitHub.png?raw=true)
-
 
 
 
@@ -29,6 +30,7 @@
 - [廖雪峰 Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
 - [Learn Version Control with Git](https://www.git-tower.com/learn/git/ebook/cn/command-line/introduction#start)
 - [git命令](https://git-scm.com/docs)
+-[https://learngitbranching.js.org/](https://learngitbranching.js.org/)
 
 ## GitHub使用秘籍
   - [GitHub秘籍](https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.zh-cn.md) 
