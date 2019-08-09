@@ -1,2 +1,1 @@
-官网
--[https://tez.apache.org/](https://tez.apache.org/)
+简介:MapReduce is a programming paradigm that enables massive scalability across hundreds or thousands of servers in a Hadoop cluster. The MapReduce concept is simple to understand for those who are familiar with clustered scale-out data processing solutions.
