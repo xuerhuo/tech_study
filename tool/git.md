@@ -40,6 +40,13 @@
 
 ## Git命令
 
+```
+-  **关联远程分支**
+   1. git remote add origin https://github.com/test/test.git
+   
+   2. git push origin master
+
+   3. git branch --set-upstream-to=origin/master master
 
 - git commit 但是没有使用git push，现在发现有文件误提交了
 
@@ -48,8 +55,7 @@
         2.  git reset --hard commit_id 完成撤销,同时将代码恢复到前一commit_id 对应的版本。
 
         3. git reset commit_id 完成Commit命令的撤销，但是不对代码修改进行撤销，可以直接通过git commit 重新提交对本地代码的修改。
-
-	
+```
 
 
 
