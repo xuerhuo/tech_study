@@ -41,7 +41,7 @@
 ## Git命令
 
 ```
--  **关联远程分支**
+- 关联远程分支
    1. git remote add origin https://github.com/test/test.git
    
    2. git push origin master

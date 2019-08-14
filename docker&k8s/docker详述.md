@@ -13,7 +13,7 @@
 
 ## Docker Compose （服务编排）
 
-## Docker Swarm （容器集群管理,可以学习k8s）
+## Docker Swarm （容器集群管理,学习k8s即可）
 
 
 ### 常用命令简介
