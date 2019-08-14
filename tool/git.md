@@ -42,11 +42,12 @@
 
 ```
 - 关联远程分支
-   1. git remote add origin https://github.com/test/test.git
-   
-   2. git push origin master
-
-   3. git branch --set-upstream-to=origin/master master
+ 1. echo "# first repo" >> README.md
+ 2. git init
+ 3. git add README.md
+ 4. git commit -m "first commit"
+ 5. git remote add origin https://github.com/zhangsan/zhangsan_first_repo.git
+ 6. git push -u origin master
 
 - git commit 但是没有使用git push，现在发现有文件误提交了
 
