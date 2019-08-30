@@ -1,5 +1,3 @@
-# Advice: 马上抛弃STS、eclipse;立即拥抱idea 
-
 ----
 
 # 快捷键
@@ -12,6 +10,7 @@
 |Ctrl+P| 快速打开最近打开的文件|
 |Ctrl+Shift+F|选中目录全局搜索|
 |F11|全屏|
+|Alt + ←|回到上次编辑的地方|
 |(Ctrl + K , Ctrl + S)先摁下Ctrl + K，再摁 Ctrl + S|调出全部快捷键|
 
 
