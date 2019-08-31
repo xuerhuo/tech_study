@@ -48,8 +48,9 @@
 ## Docker环境下MongoDB部署
 
 
-# 其他好文必读
-
+# 好文必读
+- [12 Best Free and Open Source NoSQL Databases](http://theprofessionalspoint.blogspot.com/2014/01/12-best-free-and-open-source-nosql.html)
+- [Types and Examples of NoSQL Databases](http://theprofessionalspoint.blogspot.com/2014/01/types-and-examples-of-nosql-databases.html)
 - [BSON的介绍及BSON与JSON的区别](<https://blog.csdn.net/m0_38110132/article/details/77716792>)
 - [What does being schema-less mean for a NoSQL Database?](<https://stackoverflow.com/questions/15589184/what-does-being-schema-less-mean-for-a-nosql-database>)
 - [why-schemaless](<https://www.mongodb.com/blog/post/why-schemaless>)

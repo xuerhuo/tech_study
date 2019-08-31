@@ -47,7 +47,9 @@ Redis 是一款开源的,基于BSD许可的,**单线程模式**,高级键值(key
 ## 使用docker部署redis 
 
 
-
+## 好文必读
+- [12 Best Free and Open Source NoSQL Databases](http://theprofessionalspoint.blogspot.com/2014/01/12-best-free-and-open-source-nosql.html)
+- [Types and Examples of NoSQL Databases](http://theprofessionalspoint.blogspot.com/2014/01/types-and-examples-of-nosql-databases.html)
 
 
 ## 问题解决

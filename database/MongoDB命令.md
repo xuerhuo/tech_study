@@ -79,6 +79,17 @@ db.getCollection('photo_bfa419a6-5ae7-4f03-9f66-3f6a19ed4a3d').aggregate([
   },{"$match": {"_id" :{ "$ne" : null } , "count" : {"$gt": 1} } }
 ], { allowDiskUse: true } );
 
+## | SQL 操作/函数 | mongodb聚合操作 |
+| --------- | --------- |
+|where	|$match |
+|group by	|$group |
+|having|	$match |
+|select|	$project |
+|order by	|$sort |
+|limit　	|$limit |
+|sum()|	$sum |
+|count()|	$sum |
+|join|$lookup(v3.2 新增) |
 
 ## 启动与终止
 
