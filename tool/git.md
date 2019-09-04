@@ -69,6 +69,10 @@ git push -u origin master
 git checkout -b dev origin/dev，作用是checkout远程的dev分支，在本地起名为dev分支，并切换到本地的dev分支
 2. 本地切换分支
 git checkout master  切换到master分支
+3. 删除本地分支
+git branch -d BranchName
+4. 删除远程分支
+git push origin --delete <BranchName>
 ```
 
 ### 标签管理
@@ -78,9 +82,12 @@ git tag -a v0.1 -m "version 0.1 released" 1094adb  作用: 给 1094adb 这次提
 2. 远程推送标签
 git push origin --tags
 3. 显示已有的标签
-git tag
-git show v1.4
-
+git tag      列出全部的标签
+git show v1.4 显示v1.4标签详情
+4. 删除远程标签
+git push origin --delete tag <tagName>
+5. 删除本地标签
+git tag -d <tagName>
 
 ```
 [Git-scm 6 Git 基础 - 打标签](https://git-scm.com/book/zh/v1/Git-%E5%9F%BA%E7%A1%80-%E6%89%93%E6%A0%87%E7%AD%BE)
