@@ -92,6 +92,16 @@ git tag -d <tagName>
 ```
 [Git-scm 6 Git 基础 - 打标签](https://git-scm.com/book/zh/v1/Git-%E5%9F%BA%E7%A1%80-%E6%89%93%E6%A0%87%E7%AD%BE)
 
+
+### 代码提交
+```
+1. git add fileName 增加文件
+2. git commit  -m "修改内容"
+3. git pull 
+4. 处理冲突 git add commit 
+5. git push
+```
+
 ## 好文
 - [Git 在团队中的最佳实践--如何正确使用Git Flow](https://www.cnblogs.com/wish123/p/9785101.html)
 
