@@ -57,23 +57,64 @@ git push -u origin master
 
 ### git commit 但是没有使用git push，现在发现有文件误提交了
 ```
-        1. git log  找到你想撤销的commit_id
-
-        2.  git reset --hard commit_id 完成撤销,同时将代码恢复到前一commit_id 对应的版本。
-
-        3. git reset commit_id 完成Commit命令的撤销，但是不对代码修改进行撤销，可以直接通过git commit 重新提交对本地代码的修改。
+1. git log  找到你想撤销的commit_id
+2.  git reset --hard commit_id 完成撤销,同时将代码恢复到前一commit_id 对应的版本。
+3. git reset commit_id 完成Commit命令的撤销，但是不对代码修改进行撤销，可以直接通过git commit 重新提交对本地代码的修改。
 ```
+
+### 代码需要回滚到特定版本并提交
+```
+1. git reset --hard 83ff2785
+2. git push --force
+```
+
+###  git提交建议 
+```
+git提交建议：
+<类型>（模块）：commit内容
+类型包括：
+1）init--项目初始化；
+2）feat--新功能；
+3）fix--修复bug；
+4）docs--文档操作；
+5）opt--优化；
+6）style--格式化；
+7）refactor--重构；
+8）save--单纯保存记录
+```
+
 ### 分支管理
 ```
 1. 切换到远程分支
 git checkout -b dev origin/dev，作用是checkout远程的dev分支，在本地起名为dev分支，并切换到本地的dev分支
 2. 本地切换分支
-git checkout master  切换到master分支
+git checkout branchName  切换到branchName分支
 3. 删除本地分支
 git branch -d BranchName
 4. 删除远程分支
 git push origin --delete <BranchName>
 ```
+
+### 创建新分支并推送
+```
+1. 在本地新建分支
+git branch newbranch
+2. 把本地分支push到远程
+git push origin newbranch
+```
+
+#### 重命名远程分支
+```
+1. 删除远程分支
+git push --delete origin dzh_dzh_yzsj_gaw_from_5.1
+2. 重命名分支
+git branch -m dzh_dzh_yzsj_gaw_from_5.1 dzh_yzsj_gaw_from_5.1
+3.  重命名后的分支提到远程分支
+git push origin dzh_yzsj_gaw_from_5.1
+4. 关联
+git branch --set-upstream-to=origin/dzh_yzsj_gaw_from_5.1
+```
+- [git 分支重命名  CSDN](https://blog.csdn.net/weixin_39800144/article/details/81634106)
 
 ### 标签管理
 ```
