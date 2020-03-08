@@ -1,4 +1,4 @@
-#0001 Caused by: java.lang.IllegalArgumentException: Property 'sqlSessionFactory' or 'sqlSessionTemplate' are required
+# P0001 Caused by: java.lang.IllegalArgumentException: Property 'sqlSessionFactory' or 'sqlSessionTemplate' are required
 
 ```
 Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'walletAccountDetailMapper' defined in file [E:\JAVA\springCloud\account\target\classes\com\sande\account\mapper\WalletAccountDetailMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Property 'sqlSessionFactory' or 'sqlSessionTemplate' are required
@@ -26,11 +26,11 @@ Caused by: java.lang.IllegalArgumentException: Property 'sqlSessionFactory' or '
 	... 54 more
 ```
 
-# 分析
+## 分析
 应该是jar包导致冲突
 
-# 第一种解决办法 直接手写配置类进行注入
-## java代码如下
+## 第一种解决办法 直接手写配置类进行注入
+### java代码如下
 ```
 import com.alibaba.druid.pool.DruidDataSource;
 import org.apache.ibatis.session.SqlSessionFactory;
