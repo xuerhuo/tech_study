@@ -26,6 +26,8 @@ Caused by: java.lang.IllegalArgumentException: Property 'sqlSessionFactory' or '
 	... 54 more
 ```
 
+# 分析
+应该是jar包导致冲突
 
 # 第一种解决办法 直接手写配置类进行注入
 ## java代码如下
