@@ -2,10 +2,16 @@
 
 ![avatar](https://github.com/sanwancoder/tech_study/blob/master/problem&solution/images/20200312010649.4840e4327532bd92408db11edcb7f61f.png?raw=true)
 
-### 工程目录如上，server是主类，打包后无法启动
+### 问题表现
+
+工程目录如上，server是主类，打包后可以启动,调用后报错，告知找不到mapper对应的的文件
+
+但是将上述xml文件复制到server模块下的resources目录后，接口能够正常调用。
 
 
-## 解决办法
+
+
+### 解决办法
 ```
   <build>
     <resources>
